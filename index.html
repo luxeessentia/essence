@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<meta name='viewport' content='width=device-width,initial-scale=1' />
+<title>Luxe Essentials</title>
+<link rel='stylesheet' href='css/style.css' />
+<link rel='stylesheet' href='css/carousel.css' />
+</head>
+<body>
+
+<header class='topbar'>
+  <button class='hamburger' aria-label='Open menu'><span></span><span></span><span></span></button>
+  <div class='topbar-center'>Luxe Essentials</div>
+  <div class='topbar-right'>
+    <button class='icon'>🔍</button>
+    <button class='icon'>🛒</button>
+  </div>
+</header>
+
+<aside class='sidebar'>
+  <nav>
+    <ul class='main-nav'>
+      <li><a href='index.html'>Home</a></li>
+      <li><a href='shop.html'>Shop</a>
+        <ul class='subcategories'>
+          <li><a href='shop.html#bags'>Handmade Bags</a></li>
+          <li><a href='shop.html#custom'>Custom Collection</a></li>
+          <li><a href='shop.html#tech'>Tech Accessories</a></li>
+          <li><a href='shop.html#clothing'>Clothing & Shoes</a></li>
+          <li><a href='shop.html#jewelry'>Jewelry & Accessories</a></li>
+          <li><a href='shop.html#beauty'>Beauty/Makeup</a></li>
+          <li><a href='shop.html#all'>Shop All</a></li>
+        </ul>
+      </li>
+      <li><a href='login.html'>Login/Register</a></li>
+      <li><a href='orders.html'>Orders & Returns</a></li>
+      <li><a href='contact.html'>Contact</a></li>
+      <li><a href='about.html'>About</a></li>
+      <li><a href='faq.html'>FAQ</a></li>
+    </ul>
+  </nav>
+</aside>
+
+<main class='content'>
+  <!-- HERO -->
+  <section class='hero'>
+    <div class='hero-track'>
+      <article class='hero-slide'>
+        <div class='hero-inner'><h1>GET  OFF YOUR FIRST ORDER WHEN YOU SIGN UP!</h1><button class='btn-primary'>Sign Up</button></div>
+      </article>
+      <article class='hero-slide'><div class='hero-inner'><h1>Handmade Bags & Purses</h1></div></article>
+      <article class='hero-slide'><div class='hero-inner'><h1>Tech Accessories</h1></div></article>
+      <article class='hero-slide'><div class='hero-inner'><h1>Custom Collection</h1></div></article>
+    </div>
+  </section>
+
+  <!-- Featured Carousels -->
+  <section class='featured'>
+    <div class='featured-block'>
+      <h2>Bags</h2>
+      <div class='one-carousel' data-carousel='bags'>
+        <button class='arrow left' data-action='prev'>‹</button>
+        <div class='one-track'>
+          <div class='card'><img src='images/bag1.jpg' alt='Bag 1'></div>
+          <div class='card'><img src='images/bag2.jpg' alt='Bag 2'></div>
+          <div class='card'><img src='images/bag3.jpg' alt='Bag 3'></div>
+          <div class='card'><img src='images/bag4.jpg' alt='Bag 4'></div>
+        </div>
+        <button class='arrow right' data-action='next'>›</button>
+      </div>
+    </div>
+
+    <div class='featured-block'>
+      <h2>Tech Accessories</h2>
+      <div class='one-carousel' data-carousel='tech'>
+        <button class='arrow left' data-action='prev'>‹</button>
+        <div class='one-track'>
+          <div class='card'><img src='images/tech1.jpg' alt='Tech 1'></div>
+          <div class='card'><img src='images/tech2.jpg' alt='Tech 2'></div>
+          <div class='card'><img src='images/tech3.jpg' alt='Tech 3'></div>
+          <div class='card'><img src='images/tech4.jpg' alt='Tech 4'></div>
+        </div>
+        <button class='arrow right' data-action='next'>›</button>
+      </div>
+    </div>
+
+    <div class='featured-block'>
+      <h2>Custom Collection</h2>
+      <div class='one-carousel' data-carousel='custom'>
+        <button class='arrow left' data-action='prev'>‹</button>
+        <div class='one-track'>
+          <div class='card'><img src='images/custom1.jpg' alt='Custom 1'></div>
+          <div class='card'><img src='images/custom2.jpg' alt='Custom 2'></div>
+          <div class='card'><img src='images/custom3.jpg' alt='Custom 3'></div>
+          <div class='card'><img src='images/custom4.jpg' alt='Custom 4'></div>
+        </div>
+        <button class='arrow right' data-action='next'>›</button>
+      </div>
+    </div>
+
+    <div class='featured-block'>
+      <h2>Beauty/Makeup</h2>
+      <div class='one-carousel' data-carousel='beauty'>
+        <button class='arrow left' data-action='prev'>‹</button>
+        <div class='one-track'>
+          <div class='card'><img src='images/beauty1.jpg' alt='Beauty 1'></div>
+          <div class='card'><img src='images/beauty2.jpg' alt='Beauty 2'></div>
+          <div class='card'><img src='images/beauty3.jpg' alt='Beauty 3'></div>
+          <div class='card'><img src='images/beauty4.jpg' alt='Beauty 4'></div>
+        </div>
+        <button class='arrow right' data-action='next'>›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class='newsletter'>
+    <h3>Sign up & get  off</h3>
+    <form id='newsletterForm'>
+      <input type='email' placeholder='Your email' required />
+      <button class='btn-primary' type='submit'>Subscribe</button>
+    </form>
+  </section>
+</main>
+
+<footer class='footer'>
+  <div class='footer-inner'>
+    <p>&copy; <span id='year'></span> Luxe Essentials</p>
+    <nav><a href='about.html'>About</a> | <a href='contact.html'>Contact</a> | <a href='faq.html'>FAQ</a></nav>
+  </div>
+</footer>
+
+<div class='sticky-shipping'>📦 FREE STANDARD SHIPPING ON U.S. ORDERS + | FREE EXPRESS SHIPPING ON U.S. ORDERS +</div>
+
+<script src='js/script.js'></script>
+</body>
+</html>

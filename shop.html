@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<meta name='viewport' content='width=device-width,initial-scale=1' />
+<title>Shop - Luxe Essentials</title>
+<link rel='stylesheet' href='css/style.css' />
+<link rel='stylesheet' href='css/carousel.css' />
+</head>
+<body>
+<header class='topbar'>
+  <button class='hamburger' aria-label='Open menu'><span></span><span></span><span></span></button>
+  <div class='topbar-center'>Luxe Essentials</div>
+  <div class='topbar-right'>
+    <button class='icon'>🔍</button>
+    <button class='icon'>🛒</button>
+  </div>
+</header>
+
+<aside class='sidebar'>
+  <nav><!-- same nav as homepage --></nav>
+</aside>
+
+<main class='content'>
+  <section id='bags' class='category'>
+    <h2>Handmade Bags</h2>
+    <div class='one-carousel' data-carousel='bagsShop'>
+      <button class='arrow left' data-action='prev'>‹</button>
+      <div class='one-track'>
+        <article class='product-card' data-sku='BAG-001' data-price='79'>
+          <img src='images/bag1.jpg' alt='Handmade Bag 1' />
+          <div class='product-info'><h3>Handmade Bag 1</h3><p class='price'>.00</p></div>
+          <div class='swatches'><button class='swatch' style='background:#4B0082' data-color='Indigo'></button><button class='swatch' style='background:#111' data-color='Black'></button><button class='swatch' style='background:#f5f5dc;border:1px solid #ccc' data-color='Beige'></button></div>
+          <button class='wishlist' aria-label='Add to wishlist'>♡</button>
+          <button class='btn-primary buy-now'>Buy Now</button>
+        </article>
+
+        <article class='product-card' data-sku='BAG-002' data-price='99'>
+          <img src='images/bag2.jpg' alt='Handmade Bag 2' />
+          <div class='product-info'><h3>Handmade Bag 2</h3><p class='price'>.00</p></div>
+          <div class='swatches'><button class='swatch' style='background:#8A2BE2' data-color='Purple'></button><button class='swatch' style='background:#333' data-color='Charcoal'></button></div>
+          <button class='wishlist'>♡</button>
+          <button class='btn-primary buy-now'>Buy Now</button>
+        </article>
+
+        <article class='product-card' data-sku='BAG-003' data-price='69'>
+          <img src='images/bag3.jpg' alt='Handmade Bag 3' />
+          <div class='product-info'><h3>Handmade Bag 3</h3><p class='price'>.00</p></div>
+          <div class='swatches'><button class='swatch' style='background:#cc3366' data-color='Rose'></button><button class='swatch' style='background:#111' data-color='Black'></button></div>
+          <button class='wishlist'>♡</button>
+          <button class='btn-primary buy-now'>Buy Now</button>
+        </article>
+
+        <article class='product-card' data-sku='BAG-004' data-price='85'>
+          <img src='images/bag4.jpg' alt='Handmade Bag 4' />
+          <div class='product-info'><h3>Handmade Bag 4</h3><p class='price'>.00</p></div>
+          <div class='swatches'><button class='swatch' style='background:#f5f5dc' data-color='Sand'></button><button class='swatch' style='background:#333' data-color='Grey'></button></div>
+          <button class='wishlist'>♡</button>
+          <button class='btn-primary buy-now'>Buy Now</button>
+        </article>
+      </div>
+      <button class='arrow right' data-action='next'>›</button>
+    </div>
+  </section>
+
+  <!-- Tech -->
+  <section id='tech' class='category'>
+    <h2>Tech Accessories</h2>
+    <div class='one-carousel' data-carousel='techShop'>
+      <button class='arrow left' data-action='prev'>‹</button>
+      <div class='one-track'>
+        <article class='product-card' data-sku='TECH-001' data-price='29'>
+          <img src='images/tech1.jpg' alt='Tech 1' />
+          <div class='product-info'><h3>Tech Case 1</h3><p class='price'>.00</p></div>
+          <div class='swatches'><button class='swatch' style='background:#111' data-color='Black'></button></div>
+          <button class='wishlist'>♡</button>
+          <button class='btn-primary buy-now'>Buy Now</button>
+        </article>
+
+        <article class='product-card' data-sku='TECH-002' data-price='19'>
+          <img src='images/tech2.jpg' alt='Tech 2' />
+          <div class='product-info'><h3>Tech Case 2</h3><p class='price'>.00</p></div>
+          <div class='swatches'><button class='swatch' style='background:#8A2BE2' data-color='Purple'></button></div>
+          <button class='wishlist'>♡</button>
+          <button class='btn-primary buy-now'>Buy Now</button>
+        </article>
+
+        <!-- additional items can be added here -->
+      </div>
+      <button class='arrow right' data-action='next'>›</button>
+    </div>
+  </section>
+
+  <!-- other categories (custom, clothing, jewelry, beauty) follow same pattern -->
+  <section id='all' class='category'>
+    <h2>Shop All</h2>
+    <div class='all-grid'><p class='muted'>All products shown here in grid (demo placeholder)</p></div>
+  </section>
+</main>
+
+<footer class='footer'><div class='footer-inner'>&copy; <span id='year2'></span> Luxe Essentials</div></footer>
+<div class='sticky-shipping'>📦 FREE STANDARD SHIPPING ON U.S. ORDERS + | FREE EXPRESS SHIPPING ON U.S. ORDERS +</div>
+<script src='js/script.js'></script>
+</body>
+</html>
