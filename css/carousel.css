@@ -1,0 +1,2 @@
+﻿.one-track{ display:flex; transition:transform 0.45s ease; }
+.one-track .card{ flex:0 0 100%; padding:0; }
